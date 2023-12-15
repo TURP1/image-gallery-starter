@@ -167,6 +167,9 @@ export async function getStaticProps() {
     reducedResults[i].blurDataUrl = imagesWithBlurDataUrls[i]
   }
 
+  console.log(results);
+  
+
   return {
     props: {
       images: reducedResults,
